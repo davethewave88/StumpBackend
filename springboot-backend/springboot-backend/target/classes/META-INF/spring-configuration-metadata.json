@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "rsa",
+      "type": "net.javaguides.springboot_backend.RsaKeyProperties",
+      "sourceType": "net.javaguides.springboot_backend.RsaKeyProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "rsa.private-key",
+      "type": "java.security.interfaces.RSAPrivateKey",
+      "sourceType": "net.javaguides.springboot_backend.RsaKeyProperties"
+    },
+    {
+      "name": "rsa.public-key",
+      "type": "java.security.interfaces.RSAPublicKey",
+      "sourceType": "net.javaguides.springboot_backend.RsaKeyProperties"
+    }
+  ],
+  "hints": []
+}
